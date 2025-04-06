@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="profile.css" />
+    <script
+      src="https://kit.fontawesome.com/84dba624ea.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="logo.jpeg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Enthusiast</p>
+          <h1>Hi, I'm <span>Rashmi</span><br />from Hubli</h1>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------------about---------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1"><img src="me10.jpeg" /></div>
+          <div class="about-col-2">
+            <h1>About Me</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+              asperiores at et amet culpa? Magni modi nihil voluptatibus ad cum
+              earum voluptatem voluptates adipisci illum! Illum facere iste
+              dolores quibusdam asperiores at et amet culpa? Magni modi nihil
+              voluptatibus ad cum earum voluptatem voluptates adipisci illum!
+              Illum facere iste dolores quibusdam.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-link active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-link" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Frontend Basics</span
+                  ><br />HTML<br />CSS<br />JavaScript
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2026</span><br />BE form KLE Technological University
+                  Hubli
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
+              dolorum voluptates incidunt voluptas quos libero qui molestiae,
+              tempore neque aliquam excepturi quis sequi sint, blanditiis
+              voluptatum animi vitae eligendi voluptatibus.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
+              dolorum voluptates incidunt voluptas quos libero qui molestiae,
+              tempore neque aliquam excepturi quis sequi sint, blanditiis
+              voluptatum animi vitae eligendi voluptatibus.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
+              dolorum voluptates incidunt voluptas quos libero qui molestiae,
+              tempore neque aliquam excepturi quis sequi sint, blanditiis
+              voluptatum animi vitae eligendi voluptatibus.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------------------------portfolio------------------------------------------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="wats.jpeg" />
+            <div class="layer">
+              <h3>Fitness Website</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo, odio. Asperiores, ducimus quae. Non fugiat aliquam
+                quo iste explicabo quam tenetur dolores necessitatibus, velit
+                ducimus, odio natus eligendi? Eius, ipsam?
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="wats1.jpeg" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo, odio. Asperiores, ducimus quae. Non fugiat aliquam
+                quo iste explicabo quam tenetur dolores necessitatibus, velit
+                ducimus, odio natus eligendi? Eius, ipsam?
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="wats2.jpeg" />
+            <div class="layer">
+              <h3>Fitness App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo, odio. Asperiores, ducimus quae. Non fugiat aliquam
+                quo iste explicabo quam tenetur dolores necessitatibus, velit
+                ducimus, odio natus eligendi? Eius, ipsam?
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- --------------------------------contact-------------------------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contactleft">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> rashmi@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> 0123456789</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a class="btn btn2" href="my-cv.pdf" download>Download CV</a>
+          </div>
+          <div class="contactright">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button class="btn btn2 btn3" type="submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Rashmi. All rights reserved.</p>
+      </div>
+    </div>
+
+    <script src="profile.js"></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbysObTtq1RZWwYXNNiSbO3ti-jfNg9Glse8UAUzGjmHXvcCAak65zdEoKcyRx62kKM/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
